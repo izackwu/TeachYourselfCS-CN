@@ -100,9 +100,45 @@ _The Elements of Computing Systems_，又名“从与非门到俄罗斯方块”
 
 ### 数学知识
 
+从某个角度说，计算机科学是应用数学的一个“发育过度”的分支。尽管许多软件工程师试图——并且在不同程度上成功做到——忽视这一点，我们鼓励你用学习来拥抱数学。如若成功，比起那些没有掌握数学的人，你将获得巨大的竞争优势。
+
+对于计算机科学，数学中最相关的领域是“离散数学”，其中的“离散”与“连续”相对立，大致上指的是应用数学中那些有趣的主题，而不是微积分之类的。由于定义比较含糊，试图掌握离散数学的全部内容是没有意义的。较为现实的学习目标是，了解逻辑、排列组合、概率论、集合论、图论以及密码学相关的一些数论知识。考虑到线性代数在计算机图形学和机器学习中的重要性，该领域同样值得学习。
+
+学习离散数学，我们建议从[László Lovász的课程笔记](http://www.cs.elte.hu/~lovasz/dmbook.ps)开始。Lovász教授成功地让这些内容浅显易懂且符合直觉，因此，比起正式的教材，这更适合初学者。
+
+对于更加高阶的学习，我们推荐 _[《计算机科学中的数学》](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)_，MIT同名课程的课程笔记，篇幅与书籍相当。这门课程的视频同样[可免费获得](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)，是我们所推荐的学习视频。
+
+对于线性代数，我们建议从[Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)系列视频开始，然后再去学习Gilbert Strang的[著作](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/)和[视频课程](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)。
+
+> 如果人们不相信数学是简单的，那么只能是因为他们没有意识到生活有多么复杂。
+>
+>— John von Neumann
+
 ### 操作系统
 
+_[《操作系统概念》](https://www.amazon.com/dp/1118063333/)_ （“恐龙书”）和 _[《现代操作系统》](https://www.amazon.com/dp/013359162X/)_ 是操作系统领域的经典书籍。二者都因为写作风格，长达1000页的篇幅以及每隔几年就增加内容来鼓励人们购买“最新版本”招致了一些批评。
+
+_《操作系统导论》（Operating Systems: Three Easy Pieces）_ 是一个不错的替代品，并且[可在网上免费获得](http://pages.cs.wisc.edu/~remzi/OSTEP/)。我们格外喜欢这本书的结构，并且认为这本书的习题很值得一做。
+
+在读完《操作系统导论》后，我们鼓励你探索特定操作系统的设计。可以借助“{OS name} Internals”风格的书籍，比如 _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_， _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_，以及 _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_。
+
+为了巩固对操作系统的理解，阅读小型系统内核的代码并且为其增加特性是一个很不错的方法。比如，[xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html)，由MIT的一门课程所维护的从Unix V6到ANSI C和x86的移植，就是一个很棒的选择。《操作系统导论》有一个附录，记载了一些可能的[xv6实验项目](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf)，其中充满了关于潜在项目的很棒想法。
+
 ### 计算机网络
+
+鉴于有那么多关于网络服务端和客户端的软件工程，计算机网络是计算机科学中价值最为“立竿见影”的领域之一。我们的学生，系统性地学习了计算机网络，最终能够理解那些曾困扰他们多年的术语、概念和协议。
+
+在这一主题上，我们最爱的书籍是 _[《计算机网络：自顶向下方法》](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)_。书中的小项目和习题相当值得练习，尤其是其中的“Wireshark labs”（[这部分在网上可以获得](http://www-net.cs.umass.edu/wireshark-labs/)）。
+
+如果更喜欢视频课程，我们推荐Stanford的[_Introduction to Computer Networking_](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)，可在他们的MOOC平台Lagunita上免费观看。
+
+对于计算机网络的学习，做项目比完成小的习题更有益。一些可能的项目有：HTTP服务器，基于UDP的聊天APP，[迷你TCP栈](http://jvns.ca/blog/2014/08/12/what-happens-if-you-write-a-tcp-stack-in-python/)，代理，负载均衡器，或者分布式哈希表。
+
+> 你无法盯着水晶球预见未来，未来的互联网何去何从取决于社会。
+>
+>— Bob Kahn
+
+[![《计算机网络：自顶向下方法》](https://teachyourselfcs.com/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/) 
 
 ### 数据库
 
