@@ -142,7 +142,46 @@ _《操作系统导论》（Operating Systems: Three Easy Pieces）_ 是一个�
 
 ### 数据库
 
+比起其他主题，自学数据库系统需要更多的付出。这是一个相对年轻的研究领域，并且出于很强的商业动机，研究者把想法藏在紧闭的门后。此外，许多原本有潜力写出优秀教材的作者反而选择了加入或创立公司。
+
+鉴于如上情况，我们鼓励自学者大体上抛弃教材，而是从[2015年春季学期的CS 186课程](https://archive.org/details/UCBerkeley_Course_Computer_Science_186)（Joe Hellerstein在Berkeley的数据库课程）开始，然后前往阅读论文。
+
+对于初学者，有一篇格外值得提及的论文：“[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)”。这篇论文提供了独特的对关系型数据库管理系统（RDBMS）如何工作的高层次观点，是后续学习的实用梗概。
+
+_Readings in Database Systems_，或者以[数据库“红书”](http://www.redbook.io/)更为人知，是由Peter Bailis，Joe Hellerstein和Michael Stonebraker编纂的论文合集。对于那些想要在CS 186课程的水平更进一步的学习者，“红书”应当是下一步。
+
+如果你坚持一定要一本导论教材，那我们推荐Ramakrishnan和Gehrke所著的 _[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)_。如需更深一步，Jim Gray的经典著作 _[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)_ 值得一读，不过我们不建议把这本书当作首要资源。
+
+如果没有编写足够数量的代码，很难巩固数据库理论。CS 186课程的学生给Spark添加特性，倒是不错的项目，不过我们仅仅建议从零实现一个简单的关系型数据库管理系统。自然，它将不会有太多的特性，但是即便只实现典型的关系型数据库管理系统每个方面最基础的功能，也是相当有启发的。
+
+最后，数据模型往往是数据库中一个被忽视的、教学不充分的方面。关于这个主题，我们推荐的书籍是 _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)_。
+
 ### 编程语言与编译器
 
+多数程序员学习编程语言的知识，而多数计算机科学家学习编程语言 _相关_ 的知识。这使得计算机科学家比起程序员拥有显著的优势，即便在编程领域！因为他们的知识可以推而广之：相较只学习过特定编程语言的人，他们可以更深入更快速地理解新的编程语言。
+
+权威的导论书籍是 _[《编译原理》](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)_，通常称为“龙书”。不幸的是，这本书不是为自学者而设计的，而是供教师从中挑选一些主题用于1-2学期的教学。因此十分重要的是，你需要从中甄选主题，而且最好是在导师的帮助下。
+
+如果你选择使用龙书进行自学，我们建议依据某个视频课程来设定学习的结构，然后按需从龙书中获取深入的内容。我们推荐的在线课程是[Alex Aiken在Stanford的MOOC平台Lagunita所开设的](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)。
+
+我们所推荐的龙书替代品是Terence Parr所著的 _[Language Implementation Patterns](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/)_。这本书更加直接地面向那些想要着手于诸如DSL的小型编程语言项目的软件工程师，因此从你的角度来看可能会更加实用。当然，这样做牺牲了一些有价值的理论内容。
+
+对于项目练习，我们建议为诸如COOL的简单教学语言或者你所感兴趣的某个语言的一个子集写一个编译器。如果感觉这样的项目让人生畏，可以先从[Make a Lisp](https://github.com/kanaka/mal)开始，在一步步的指引下完成项目。
+
+[![《编译原理》](https://teachyourselfcs.com/dragon.jpg) ](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) [![Language Implementation Patterns](https://teachyourselfcs.com/parr.jpg)](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/) 
+
+> 不要做一个只写样板代码的程序员。相反，给用户和其他程序员创造工具。从纺织工业和钢铁工业中学习历史教训：你想制造机器和工具，还是操作这些机器？
+>
+>— Ras Bodik 在他的编译器课程伊始
+
 ### 分布式系统
+
+随着计算机在数量上的增加，计算机同样开始 _分散_。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。
+
+对于自学者，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _[《分布式系统原理与范型》（第三版）](https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/)_。相较之前的版本，第三版有巨大的改进，并且多亏了其作者的慷慨，这本书在网上可以免费获得。考虑到分布式系统是一个迅速变化的领域，没有教材可以完全作为路标指引，不过就我们所见，这本书是基础扎实的最佳总览。
+
+[MIT的6.824](https://www.youtube.com/watch?v=hBWfjkGKRas&list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL)（研究生课程）是一门在网络有部分视频的优秀课程，不过不幸的是，录像中的声音质量很差，并且不确定这些录像是否经过许可。
+
+不管选择怎样的教材或者其他辅助资料，学习分布式系统必然要求阅读论文。[这里](http://dsrg.pdos.csail.mit.edu/papers/)有一个不错的论文清单，而且我们强烈建议你出席你当地的[Papers We Love](http://paperswelove.org/)（仅限美国）。
+
 
