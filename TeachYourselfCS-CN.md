@@ -95,7 +95,7 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 最后，我们强烈推荐 _[《怎样解题》](https://book.douban.com/subject/2124114/)_。这本书极为优秀且独特，指导人们解决广义上的问题，因而一如其适用于数学，它适用于计算机科学。
 
-[![算法设计手册](https://teachyourselfcs.com/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![How to Solve It](https://teachyourselfcs.com/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) 
+[![算法设计手册](https://teachyourselfcs.com/skiena.jpg)](https://book.douban.com/subject/4048566/) [![How to Solve It](https://teachyourselfcs.com/polya.jpg)](https://book.douban.com/subject/2124114/) 
 
 > 我可以广泛推荐的方法只有一个： 写之前先思考。
 >
@@ -109,9 +109,9 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 学习离散数学，我们建议从[László Lovász的课程笔记](http://www.cs.elte.hu/~lovasz/dmbook.ps)开始。Lovász教授成功地让这些内容浅显易懂且符合直觉，因此，比起正式的教材，这更适合初学者。
 
-对于更加高阶的学习，我们推荐 _[《计算机科学中的数学》](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)_，MIT同名课程的课程笔记，篇幅与书籍相当。这门课程的视频同样[可免费获得](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)，是我们所推荐的学习视频。
+对于更加高阶的学习，我们推荐 _[《计算机科学中的数学》](https://book.douban.com/subject/33396340/)_，MIT同名课程的课程笔记，篇幅与书籍相当（事实上，现已出版）。这门课程的视频同样[可免费获得](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)，是我们所推荐的学习视频。
 
-对于线性代数，我们建议从[Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)系列视频开始，然后再去学习Gilbert Strang的[著作](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/)和[视频课程](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)。
+对于线性代数，我们建议从[Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)系列视频开始，然后再去学习Gilbert Strang的[《线性代数导论》](https://book.douban.com/subject/34820335/)和[视频课程](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)。
 
 > 如果人们不相信数学是简单的，那么只能是因为他们没有意识到生活有多么复杂。
 >
@@ -119,9 +119,9 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 ### 操作系统
 
-_[《操作系统概念》](https://www.amazon.com/dp/1118063333/)_ （“恐龙书”）和 _[《现代操作系统》](https://www.amazon.com/dp/013359162X/)_ 是操作系统领域的经典书籍。二者都因为写作风格，长达1000页的篇幅以及每隔几年就增加内容来鼓励人们购买“最新版本”招致了一些批评。
+_[《操作系统概念》](https://book.douban.com/subject/30297919/)_ （“恐龙书”）和 _[《现代操作系统》](https://book.douban.com/subject/27096665/)_ 是操作系统领域的经典书籍。二者都因为写作风格，长达1000页的篇幅以及每隔几年就增加内容来鼓励人们购买“最新版本”招致了一些批评。
 
-_《操作系统导论》（Operating Systems: Three Easy Pieces）_ 是一个不错的替代品，并且[可在网上免费获得](http://pages.cs.wisc.edu/~remzi/OSTEP/)。我们格外喜欢这本书的结构，并且认为这本书的习题很值得一做。
+_[《操作系统导论》（Operating Systems: Three Easy Pieces）](https://book.douban.com/subject/33463930/)_ 是一个不错的替代品，并且[可在网上免费获得（英文版）](http://pages.cs.wisc.edu/~remzi/OSTEP/)。我们格外喜欢这本书的结构，并且认为这本书的习题很值得一做。
 
 在读完《操作系统导论》后，我们鼓励你探索特定操作系统的设计。可以借助“{OS name} Internals”风格的书籍，比如 _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_， _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_，以及 _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_。
 
@@ -131,7 +131,7 @@ _《操作系统导论》（Operating Systems: Three Easy Pieces）_ 是一个�
 
 鉴于有那么多关于网络服务端和客户端的软件工程，计算机网络是计算机科学中价值最为“立竿见影”的领域之一。我们的学生，系统性地学习了计算机网络，最终能够理解那些曾困扰他们多年的术语、概念和协议。
 
-在这一主题上，我们最爱的书籍是 _[《计算机网络：自顶向下方法》](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)_。书中的小项目和习题相当值得练习，尤其是其中的“Wireshark labs”（[这部分在网上可以获得](http://www-net.cs.umass.edu/wireshark-labs/)）。
+在这一主题上，我们最爱的书籍是 _[《计算机网络：自顶向下方法》](https://book.douban.com/subject/26176870/)_。书中的小项目和习题相当值得练习，尤其是其中的“Wireshark labs”（[这部分在网上可以获得](http://www-net.cs.umass.edu/wireshark-labs/)）。
 
 如果更喜欢视频课程，我们推荐Stanford的[_Introduction to Computer Networking_](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)，可在他们的MOOC平台Lagunita上免费观看。
 
@@ -141,7 +141,7 @@ _《操作系统导论》（Operating Systems: Three Easy Pieces）_ 是一个�
 >
 >— Bob Kahn
 
-[![《计算机网络：自顶向下方法》](https://teachyourselfcs.com/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/) 
+[![《计算机网络：自顶向下方法》](https://teachyourselfcs.com/top-down.jpg)](https://book.douban.com/subject/26176870/) 
 
 ### 数据库
 
@@ -151,27 +151,27 @@ _《操作系统导论》（Operating Systems: Three Easy Pieces）_ 是一个�
 
 对于初学者，有一篇格外值得提及的论文：“[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)”。这篇论文提供了独特的对关系型数据库管理系统（RDBMS）如何工作的高层次观点，是后续学习的实用梗概。
 
-_Readings in Database Systems_，或者以[数据库“红书”](http://www.redbook.io/)更为人知，是由Peter Bailis，Joe Hellerstein和Michael Stonebraker编纂的论文合集。对于那些想要在CS 186课程的水平更进一步的学习者，“红书”应当是下一步。
+_[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_，或者以[数据库“红书”](http://www.redbook.io/)更为人知，是由Peter Bailis，Joe Hellerstein和Michael Stonebraker编纂的论文合集。对于那些想要在CS 186课程的水平更进一步的学习者，“红书”应当是下一步。
 
-如果你坚持一定要一本导论教材，那我们推荐Ramakrishnan和Gehrke所著的 _[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)_。如需更深一步，Jim Gray的经典著作 _[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)_ 值得一读，不过我们不建议把这本书当作首要资源。
+如果你坚持一定要一本导论教材，那我们推荐Ramakrishnan和Gehrke所著的 _[《数据库管理系统：原理与设计》](https://book.douban.com/subject/1155934/)_。如需更深一步，Jim Gray的经典著作 _[《Transaction Processing: Concepts and Techniques》](https://book.douban.com/subject/2586390/)_ 值得一读，不过我们不建议把这本书当作首要资源。
 
 如果没有编写足够数量的代码，很难巩固数据库理论。CS 186课程的学生给Spark添加特性，倒是不错的项目，不过我们仅仅建议从零实现一个简单的关系型数据库管理系统。自然，它将不会有太多的特性，但是即便只实现典型的关系型数据库管理系统每个方面最基础的功能，也是相当有启发的。
 
-最后，数据模型往往是数据库中一个被忽视的、教学不充分的方面。关于这个主题，我们推荐的书籍是 _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)_。
+最后，数据模型往往是数据库中一个被忽视的、教学不充分的方面。关于这个主题，我们推荐的书籍是 _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://book.douban.com/subject/17915870/)_。
 
 ### 编程语言与编译器
 
 多数程序员学习编程语言的知识，而多数计算机科学家学习编程语言 _相关_ 的知识。这使得计算机科学家比起程序员拥有显著的优势，即便在编程领域！因为他们的知识可以推而广之：相较只学习过特定编程语言的人，他们可以更深入更快速地理解新的编程语言。
 
-权威的导论书籍是 _[《编译原理》](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)_，通常称为“龙书”。不幸的是，这本书不是为自学者而设计的，而是供教师从中挑选一些主题用于1-2学期的教学。因此十分重要的是，你需要从中甄选主题，而且最好是在导师的帮助下。
+权威的导论书籍是 _[《编译原理》](https://book.douban.com/subject/3296317/)_，通常称为“龙书”。不幸的是，这本书不是为自学者而设计的，而是供教师从中挑选一些主题用于1-2学期的教学。因此十分重要的是，你需要从中甄选主题，而且最好是在导师的帮助下。
 
 如果你选择使用龙书进行自学，我们建议依据某个视频课程来设定学习的结构，然后按需从龙书中获取深入的内容。我们推荐的在线课程是[Alex Aiken在Stanford的MOOC平台Lagunita所开设的](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)。
 
-我们所推荐的龙书替代品是Terence Parr所著的 _[Language Implementation Patterns](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/)_。这本书更加直接地面向那些想要着手于诸如DSL的小型编程语言项目的软件工程师，因此从你的角度来看可能会更加实用。当然，这样做牺牲了一些有价值的理论内容。
+我们所推荐的龙书替代品是Terence Parr所著的 _[《编程语言实现模式》](https://book.douban.com/subject/10482195/)_。这本书更加直接地面向那些想要着手于诸如DSL的小型编程语言项目的软件工程师，因此从你的角度来看可能会更加实用。当然，这样做牺牲了一些有价值的理论内容。
 
 对于项目练习，我们建议为诸如COOL的简单教学语言或者你所感兴趣的某个语言的一个子集写一个编译器。如果感觉这样的项目让人生畏，可以先从[Make a Lisp](https://github.com/kanaka/mal)开始，在一步步的指引下完成项目。
 
-[![《编译原理》](https://teachyourselfcs.com/dragon.jpg) ](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) [![Language Implementation Patterns](https://teachyourselfcs.com/parr.jpg)](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/) 
+[![《编译原理》](https://teachyourselfcs.com/dragon.jpg) ](https://book.douban.com/subject/3296317/) [![Language Implementation Patterns](https://teachyourselfcs.com/parr.jpg)](https://book.douban.com/subject/10482195/) 
 
 > 不要做一个只写样板代码的程序员。相反，给用户和其他程序员创造工具。从纺织工业和钢铁工业中学习历史教训：你想制造机器和工具，还是操作这些机器？
 >
@@ -181,7 +181,7 @@ _Readings in Database Systems_，或者以[数据库“红书”](http://www.red
 
 随着计算机在数量上的增加，计算机同样开始 _分散_。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。
 
-对于自学者，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _[《分布式系统原理与范型》（第三版）](https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/)_。相较之前的版本，第三版有巨大的改进，并且多亏了其作者的慷慨，这本书在网上可以免费获得。考虑到分布式系统是一个迅速变化的领域，没有教材可以完全作为路标指引，不过就我们所见，这本书是基础扎实的最佳总览。
+对于自学者，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。相较之前的版本，第三版有巨大的改进，并且多亏了其作者的慷慨，这本书在网上可以免费获得。考虑到分布式系统是一个迅速变化的领域，没有教材可以完全作为路标指引，不过就我们所见，这本书是基础扎实的最佳总览。
 
 [MIT的6.824](https://www.youtube.com/watch?v=hBWfjkGKRas&list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL)（研究生课程）是一门在网络有部分视频的优秀课程，不过不幸的是，录像中的声音质量很差，并且不确定这些录像是否经过许可。
 
@@ -193,9 +193,9 @@ _Readings in Database Systems_，或者以[数据库“红书”](http://www.red
 
 我们试图把计算机科学主题清单限制到那些我们认为 _每一个软件工程师_ 都应该了解的内容，不限于专业或行业。拥有了这些基础，你将能更加轻松地挑选教材或论文，然而无需指引地学习核心概念。在这里，我们给出一些其他常见主题的自学起点：
 
-*   人工智能：通过观看视频并完成Pacman项目来学习[Berkeley的AI课程](http://ai.berkeley.edu/)。至于教材，使用Russell和Norvig编写的 _《人工智能：一种现代方法》_。
+*   人工智能：通过观看视频并完成Pacman项目来学习[Berkeley的AI课程](http://ai.berkeley.edu/)。至于教材，使用Russell和Norvig编写的 _[《人工智能：一种现代方法》](https://book.douban.com/subject/25796281/)_。
 *   机器学习：学习吴恩达在Coursera上的课程。耐心学习，先确保理解了基础概念再奔向类如深度学习的诱人新主题。
-*   计算机图形学：学习[Berkeley CS 184课程](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html)的材料，使用[Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528)作为教材。
+*   计算机图形学：学习[Berkeley CS 184课程](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html)的材料，使用[《计算机图形学：原理及实践》](https://book.douban.com/subject/30402778/)作为教材。
 
 ### 一定要严格遵守推荐的学习次序吗？
 
