@@ -13,17 +13,17 @@ This guide is our attempt to definitively answer these questions.
 
 Study all nine subjects below, in roughly the presented order, using either the suggested textbook or video lecture series, but ideally both. Aim for 100-200 hours of study of each topic, then revisit favorites throughout your career 🚀.
 
-| Subject | Why study? | Best book | Best videos |
-| --- | --- | --- | --- |
-| **[Programming](#programming)** | Don’t be the person who “never quite understood” something like recursion. | _Structure and Interpretation of Computer Programs_ | Brian Harvey’s Berkeley CS 61A |
-| **[Computer Architecture](#architecture)** | If you don’t have a solid mental model of how a computer actually works, all of your higher-level abstractions will be brittle. | _Computer Organization and Design_ | Berkeley CS 61C |
-| **[Algorithms and Data Structures](#algorithms)** | If you don’t know how to use ubiquitous data structures like stacks, queues, trees, and graphs, you won’t be able to solve hard problems. | _The Algorithm Design Manual_ | Steven Skiena’s lectures |
-| **[Math for CS](#math)** | CS is basically a runaway branch of applied math, so learning math will give you a competitive advantage. | _Mathematics for Computer Science_ | Tom Leighton’s MIT 6.042J |
-| **[Operating Systems](#operating-systems)** | Most of the code you write is run by an operating system, so you should know how those interact. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
-| **[Computer Networking](#networking)** | The Internet turned out to be a big deal: understand how it works to unlock its full potential. | _Computer Networking: A Top-Down Approach_ | Stanford CS 144 |
-| **[Databases](#databases)** | Data is at the heart of most significant programs, but few understand how database systems actually work. | _Readings in Database Systems_ | Joe Hellerstein’s Berkeley CS 186 |
-| **[Languages and Compilers](#languages)** | If you understand how languages and compilers actually work, you’ll write better code and learn new languages more easily. | _Compilers: Principles, Techniques and Tools_ | Alex Aiken’s course on Lagunita |
-| **[Distributed Systems](#distributed-systems)** | These days, _most_ systems are distributed systems. | _Distributed Systems, 3rd Edition_ by Maarten van Steen | 🤷‍ |
+| Subject                                           | Why study?                                                                                                                                | Best book                                               | Best videos                       |
+|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------------------------------|
+| **[Programming](#programming)**                   | Don’t be the person who “never quite understood” something like recursion.                                                                | _Structure and Interpretation of Computer Programs_     | Brian Harvey’s Berkeley CS 61A    |
+| **[Computer Architecture](#architecture)**        | If you don’t have a solid mental model of how a computer actually works, all of your higher-level abstractions will be brittle.           | _Computer Organization and Design_                      | Berkeley CS 61C                   |
+| **[Algorithms and Data Structures](#algorithms)** | If you don’t know how to use ubiquitous data structures like stacks, queues, trees, and graphs, you won’t be able to solve hard problems. | _The Algorithm Design Manual_                           | Steven Skiena’s lectures          |
+| **[Math for CS](#math)**                          | CS is basically a runaway branch of applied math, so learning math will give you a competitive advantage.                                 | _Mathematics for Computer Science_                      | Tom Leighton’s MIT 6.042J         |
+| **[Operating Systems](#operating-systems)**       | Most of the code you write is run by an operating system, so you should know how those interact.                                          | _Operating Systems: Three Easy Pieces_                  | Berkeley CS 162                   |
+| **[Computer Networking](#networking)**            | The Internet turned out to be a big deal: understand how it works to unlock its full potential.                                           | _Computer Networking: A Top-Down Approach_              | Stanford CS 144                   |
+| **[Databases](#databases)**                       | Data is at the heart of most significant programs, but few understand how database systems actually work.                                 | _Readings in Database Systems_                          | Joe Hellerstein’s Berkeley CS 186 |
+| **[Languages and Compilers](#languages)**         | If you understand how languages and compilers actually work, you’ll write better code and learn new languages more easily.                | _Compilers: Principles, Techniques and Tools_           | Alex Aiken’s course on Lagunita   |
+| **[Distributed Systems](#distributed-systems)**   | These days, _most_ systems are distributed systems.                                                                                       | _Distributed Systems, 3rd Edition_ by Maarten van Steen | 🤷‍                                 |
 
 ## Why learn computer science?
 
@@ -74,7 +74,7 @@ Once you feel comfortable with the content of Nand2Tetris, our next suggestion i
 > Hardware is the platform
 >
 > — Mike Acton, Engine Director at Insomniac Games
-([watch his CppCon talk](https://www.youtube.com/watch?v=rX0ItVEVjHc))
+> ([watch his CppCon talk](https://www.youtube.com/watch?v=rX0ItVEVjHc))
 
 ### Algorithms and Data Structures
 
@@ -164,7 +164,7 @@ As a potential alternative to the Dragon Book we suggest _[Language Implementati
 
 For project work, we suggest writing a compiler either for a simple teaching language like COOL, or for a subset of a language that interests you. Those who find such a project daunting could start with [Make a Lisp](https://github.com/kanaka/mal), which steps you through the project.
 
-[![Compilers: Principles, Techniques & Tools](https://teachyourselfcs.com/dragon.jpg) ](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) [![Language Implementation Patterns](https://teachyourselfcs.com/parr.jpg)](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/) 
+[![Compilers: Principles, Techniques & Tools](https://teachyourselfcs.com/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) [![Language Implementation Patterns](https://teachyourselfcs.com/parr.jpg)](https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/) 
 
 > Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines?
 >
@@ -182,7 +182,7 @@ No matter the choice of textbook or other secondary resources, study of distribu
 
 ## Frequently asked questions
 
-#### What about AI/graphics/pet-topic-X?
+### What about AI/graphics/pet-topic-X?
 
 We’ve tried to limit our list to computer science topics that we feel _every practicing software engineer_ should know, irrespective of specialty or industry. With this foundation, you’ll be in a much better position to pick up textbooks or papers and learn the core concepts without much guidance. Here are our suggested starting points for a couple of common “electives”:
 
@@ -190,39 +190,39 @@ We’ve tried to limit our list to computer science topics that we feel _every p
 *   For machine learning: do Andrew Ng’s Coursera course. Be patient, and make sure you understand the fundamentals before racing off to shiny new topics like deep learning.
 *   For computer graphics: work through [Berkeley’s CS 184](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html) material, and use [Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528) as a textbook.
 
-#### How strict is the suggested sequencing?
+### How strict is the suggested sequencing?
 
 Realistically, all of these subjects have a significant amount of overlap, and refer to one another cyclically. Take for instance the relationship between discrete math and algorithms: learning math first would help you analyze and understand your algorithms in greater depth, but learning algorithms first would provide greater motivation and context for discrete math. Ideally, you’d revisit both of these topics many times throughout your career.
 
 As such, our suggested sequencing is mostly there to help you _just get started_… if you have a compelling reason to prefer a different sequence, then go for it. The most significant “pre-requisites” in our opinion are: computer architecture before operating systems or databases, and networking and operating systems before distributed systems.
 
-#### Who is the target audience for this guide?
+### Who is the target audience for this guide?
 
 We have in mind that you are a self-taught software engineer, bootcamp grad or precocious high school student, or a college student looking to supplement your formal education with some self-study. The question of when to embark upon this journey is an entirely personal one, but most people tend to benefit from having some professional experience before diving too deep into CS theory. For instance, we notice that students _love_ learning about database systems if they have already worked with databases professionally, or about computer networking if they’ve worked on a web project or two.
 
-#### How does this compare to Open Source Society or freeCodeCamp curricula?
+### How does this compare to Open Source Society or freeCodeCamp curricula?
 
 The [OSS guide](https://github.com/open-source-society/computer-science) has too many subjects, suggests inferior resources for many of them, and provides no rationale or guidance around why or what aspects of particular courses are valuable. We strove to limit our list of courses to those which you _really should know_ as a software engineer, irrespective of your specialty, and to help you understand why each course is included.
 
 freeCodeCamp is focused mostly on programming, not computer science. For why you might want to learn computer science, see [above](#why).
 
-#### What about language X?
+### What about language X?
 
 Learning a particular programming language is on a totally different plane to learning about an area of computer science — learning a language is much _easier_ and much _less valuable_. If you already know a couple of languages, we strongly suggest simply following our guide and fitting language acquisition in the gaps, or leaving it for afterwards. If you’ve learned programming well (such as through _Structure and Interpretation of Computer Programs_), and especially if you have learned compilers, it should take you little more than a weekend to learn the essentials of a new language.
 
-#### What about trendy technology X?
+### What about trendy technology X?
 
 No single technology is important enough that learning to use it should be a core part of your education. On the other hand, it’s great that you’re excited to learn about that thing. The trick is to work backwards from the particular technology to the underlying field or concept, and learn that in depth before seeing how your trendy technology fits into the bigger picture.
 
-#### Why are you still recommending the Dragon book?
+### Why are you still recommending the Dragon book?
 
 The Dragon book is still the most complete single resource for compilers. It gets a bad rap, typically for overemphasizing certain topics that are less fashionable to cover in detail these days, such as parsing. The thing is, the book was never intended to be studied cover to cover, only to provide enough material for an instructor to put together a course. Similarly, a self-learner can choose their own adventure through the book, or better yet follow the suggestions that lecturers of public courses have made in their course outlines.
 
-#### How can I get textbooks cheaply?
+### How can I get textbooks cheaply?
 
 Many of the textbooks we suggest are freely available online, thanks to the generosity of their authors. For those that aren’t, we suggest buying used copies of older editions. As a general rule, if there has been more than a couple of editions of a textbook, it’s quite likely that an older edition is perfectly adequate. It’s certainly unlikely that the newest version is 10x better than an older one, even if that’s what the price difference is!
 
-#### Who made this?
+### Who made this?
 
 This guide was written by [Ozan Onay](https://twitter.com/oznova_) and [Myles Byrne](https://twitter.com/quackingduck), instructors at the [Bradfield School of Computer Science](https://bradfieldcs.com) in San Francisco. It is based on our experience teaching foundational computer science to hundreds of mostly self-taught engineers and bootcamp grads. Thank you to all of our students for your continued feedback on self-teaching resources. Thanks too to Alek Sharma, Omar Rayward, Ammar Mian and Tyler Bettilyon for feedback on this guide.
 
