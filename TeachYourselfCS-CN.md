@@ -238,6 +238,8 @@ FreeCodeCamp主要关注编程，而不是计算机科学。至于你为什么�
 
 我们所建议的许多教材在网上都可以免费获得，这多亏了作者们的慷慨。对于那些不免费的书籍，我们建议购买旧版本的二手书籍。广而言之，如果一本教材有多个版本，旧版本大概率是完全足够使用的。即便新版本的价格是旧版本的10倍，新版本也绝不可能比旧版本好10倍！
 
+**中文翻译新增：**事实上，比起美国，在国内购买技术书籍可以说是相当“廉价”了。如果仍旧寻求更加便宜的购买渠道，可以参考这篇V2EX上的[讨论帖子](https://www.v2ex.com/t/578615)，其中提到了一些不错的购买渠道。
+
 ### 这份指引是谁写的?
 
 这份指引由[Bradfield School of Computer Science](https://bradfieldcs.com)（旧金山）的两位教员：[Ozan Onay](https://twitter.com/oznova_)和[Myles Byrne](https://twitter.com/quackingduck)编写。这份指引基于我们对数百名自学成才的工程师和培训班学生教授计算机科学基础的经验。感谢我们所有学生对自学资源的持续反馈。同样感谢Alek Sharma，Omar Rayward，Ammar Mian和Tyler Bettilyon对这份指引的反馈。
