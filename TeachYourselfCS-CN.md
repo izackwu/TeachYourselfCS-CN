@@ -60,6 +60,8 @@
 
 如果你觉得SICP过于难，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。
 
+[![计算机程序的构造和解释](https://user-images.githubusercontent.com/20233656/66758473-ef7bff80-eed0-11e9-944a-15ae5c8542ca.jpg)](https://book.douban.com/subject/1148282/) 
+
 ### 计算机架构
 
 计算机架构——有时候又被称为“计算机系统”或者“计算机组成”——是了解软件底层的的重要视角。根据我们的经验，这是自学的软件工程师最容易忽视的领域。
@@ -74,7 +76,7 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 当你掌握了Nand2Tetris的内容后，我们接下来推荐Patterson和Hennessy二人所著的 _[《计算机组成与设计》](https://book.douban.com/subject/26604008/)_，一本优秀的经典著作。这本书中的不同章节重要程度不一，因此我们建议根据Berkeley的[CS61C课程](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “计算机架构中的伟大思想”来着重阅读一些章节。这门课的笔记和实验在网络上可以免费获得，并且在[互联网档案](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)中有这门课程的过往资料。
 
-[![Elements of Computing Systems](https://teachyourselfcs.com/elements-computing-systems.jpg)](http://www.nand2tetris.org) 
+[![计算机系统要素](https://user-images.githubusercontent.com/20233656/66758695-60231c00-eed1-11e9-8422-a4acfb10a390.jpg)](http://www.nand2tetris.org) [![计算机组成与设计](https://user-images.githubusercontent.com/20233656/66758887-bf812c00-eed1-11e9-87cf-9255a4815d04.jpg)](https://book.douban.com/subject/26604008/) 
 
 > 硬件是平台。
 >
@@ -94,7 +96,7 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 最后，我们强烈推荐 _[《怎样解题》](https://book.douban.com/subject/2124114/)_。这本书极为优秀且独特，指导人们解决广义上的问题，因而一如其适用于数学，它适用于计算机科学。
 
-[![算法设计手册](https://teachyourselfcs.com/skiena.jpg)](https://book.douban.com/subject/4048566/) [![How to Solve It](https://teachyourselfcs.com/polya.jpg)](https://book.douban.com/subject/2124114/) 
+[![算法设计手册](https://user-images.githubusercontent.com/20233656/66759121-361e2980-eed2-11e9-913c-8fc48c67122a.jpg)](https://book.douban.com/subject/4048566/) [![怎样解题](https://user-images.githubusercontent.com/20233656/66759282-8e552b80-eed2-11e9-89de-16b1f8d82e78.jpg)](https://book.douban.com/subject/2124114/) 
 
 > 我可以广泛推荐的方法只有一个： 写之前先思考。
 >
@@ -112,6 +114,8 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 对于线性代数，我们建议从[Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)系列视频开始，然后再去学习Gilbert Strang的[《线性代数导论》](https://book.douban.com/subject/34820335/)和[视频课程](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)。
 
+[![计算机科学中的数学](https://user-images.githubusercontent.com/20233656/66759673-4387e380-eed3-11e9-8469-3e677d108e91.jpg)](https://book.douban.com/subject/33396340/) 
+
 > 如果人们不相信数学是简单的，那么只能是因为他们没有意识到生活有多么复杂。
 >
 >— John von Neumann
@@ -126,6 +130,8 @@ _[《操作系统导论》（Operating Systems: Three Easy Pieces）](https://bo
 
 为了巩固对操作系统的理解，阅读小型系统内核的代码并且为其增加特性是一个很不错的方法。比如，[xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html)，由MIT的一门课程所维护的从Unix V6到ANSI C和x86的移植，就是一个很棒的选择。《操作系统导论》有一个附录，记载了一些可能的[xv6实验项目](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf)，其中充满了关于潜在项目的很棒想法。
 
+[![操作系统导论](https://user-images.githubusercontent.com/20233656/66759780-78943600-eed3-11e9-8eb5-6472c318c265.jpg)](https://book.douban.com/subject/33463930/) 
+
 ### 计算机网络
 
 鉴于有那么多关于网络服务端和客户端的软件工程，计算机网络是计算机科学中价值最为“立竿见影”的领域之一。我们的学生，系统性地学习了计算机网络，最终能够理解那些曾困扰他们多年的术语、概念和协议。
@@ -136,11 +142,11 @@ _[《操作系统导论》（Operating Systems: Three Easy Pieces）](https://bo
 
 对于计算机网络的学习，做项目比完成小的习题更有益。一些可能的项目有：HTTP服务器，基于UDP的聊天APP，[迷你TCP栈](http://jvns.ca/blog/2014/08/12/what-happens-if-you-write-a-tcp-stack-in-python/)，代理，负载均衡器，或者分布式哈希表。
 
+[![《计算机网络：自顶向下方法》](https://user-images.githubusercontent.com/20233656/66760004-d9bc0980-eed3-11e9-9b3f-74bf54b9571f.jpg)](https://book.douban.com/subject/26176870/) 
+
 > 你无法盯着水晶球预见未来，未来的互联网何去何从取决于社会。
 >
 >— Bob Kahn
-
-[![《计算机网络：自顶向下方法》](https://teachyourselfcs.com/top-down.jpg)](https://book.douban.com/subject/26176870/) 
 
 ### 数据库
 
@@ -158,6 +164,8 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 最后，数据模型往往是数据库中一个被忽视的、教学不充分的方面。关于这个主题，我们推荐的书籍是 _[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://book.douban.com/subject/17915870/)_。
 
+[![Readings in Database Systems](https://user-images.githubusercontent.com/20233656/66760126-08d27b00-eed4-11e9-82c6-46c571036aa1.jpg)](https://book.douban.com/subject/2256069/) [![数据库管理系统：原理与设计](https://user-images.githubusercontent.com/20233656/66760358-85655980-eed4-11e9-9130-66d2ecea5700.jpg)](https://book.douban.com/subject/1155934/) 
+
 ### 编程语言与编译器
 
 多数程序员学习编程语言的知识，而多数计算机科学家学习编程语言 _相关_ 的知识。这使得计算机科学家比起程序员拥有显著的优势，即便在编程领域！因为他们的知识可以推而广之：相较只学习过特定编程语言的人，他们可以更深入更快速地理解新的编程语言。
@@ -170,8 +178,7 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 对于项目练习，我们建议为诸如COOL的简单教学语言或者你所感兴趣的某个语言的一个子集写一个编译器。如果感觉这样的项目让人生畏，可以先从[Make a Lisp](https://github.com/kanaka/mal)开始，在一步步的指引下完成项目。
 
-[![《编译原理》](https://teachyourselfcs.com/dragon.jpg)](https://book.douban.com/subject/3296317/)
-[![Language Implementation Patterns](https://teachyourselfcs.com/parr.jpg)](https://book.douban.com/subject/10482195/) 
+[![编译原理](https://user-images.githubusercontent.com/20233656/66760486-ca898b80-eed4-11e9-80ba-df298ac8d5da.jpg)](https://book.douban.com/subject/3296317/)[![编程语言实现模式](https://user-images.githubusercontent.com/20233656/66760488-cb222200-eed4-11e9-846e-e4c6fa0d75d2.jpg)](https://book.douban.com/subject/10482195/) 
 
 > 不要做一个只写样板代码的程序员。相反，给用户和其他程序员创造工具。从纺织工业和钢铁工业中学习历史教训：你想制造机器和工具，还是操作这些机器？
 >
@@ -186,6 +193,8 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 [MIT的6.824](https://www.youtube.com/watch?v=hBWfjkGKRas&list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL)（研究生课程）是一门在网络有部分视频的优秀课程，不过不幸的是，录像中的声音质量很差，并且不确定这些录像是否经过许可。
 
 不管选择怎样的教材或者其他辅助资料，学习分布式系统必然要求阅读论文。[这里](http://dsrg.pdos.csail.mit.edu/papers/)有一个不错的论文清单，而且我们强烈建议你出席你当地的[Papers We Love](http://paperswelove.org/)（仅限美国）。
+
+[![分布式系统原理与范型](https://user-images.githubusercontent.com/20233656/66760565-f73da300-eed4-11e9-90e9-85c0498de233.jpg)](https://book.douban.com/subject/3108801/) 
 
 ## 常见问题解答
 
