@@ -58,6 +58,14 @@
 
 我们建议至少学完SICP的前三章，并完成配套的习题。如果需要额外的练习，可以去解决一些小的程序设计问题，比如[exercism](http://exercism.io)。
 
+> **中文翻译新增：**  
+>
+> * 关于SICP国内视频观看地址  
+>   * [MIT的免费视频课程（中英字幕）](https://www.bilibili.com/video/av8515129/)  
+>   * [Brian Harvey 开设的 SICP 课程（英文字幕）](https://www.bilibili.com/video/av40460492/)  
+> * Scheme 学习的相关资源参见：<https://github.com/DeathKing/Learning-SICP>  
+> * 更详细的补充说明：[#3](https://github.com/keithnull/TeachYourselfCS-CN/issues/3)  
+
 如果你觉得SICP过于难，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。
 
 [![计算机程序的构造和解释](https://user-images.githubusercontent.com/20233656/66758473-ef7bff80-eed0-11e9-944a-15ae5c8542ca.jpg)](https://book.douban.com/subject/1148282/) 
