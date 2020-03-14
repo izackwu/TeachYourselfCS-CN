@@ -23,7 +23,7 @@ Study all nine subjects below, in roughly the presented order, using either the 
 | **[Computer Networking](#networking)**            | The Internet turned out to be a big deal: understand how it works to unlock its full potential.                                           | _Computer Networking: A Top-Down Approach_              | Stanford CS 144                   |
 | **[Databases](#databases)**                       | Data is at the heart of most significant programs, but few understand how database systems actually work.                                 | _Readings in Database Systems_                          | Joe Hellerstein’s Berkeley CS 186 |
 | **[Languages and Compilers](#languages)**         | If you understand how languages and compilers actually work, you’ll write better code and learn new languages more easily.                | _Compilers: Principles, Techniques and Tools_           | Alex Aiken’s course on Lagunita   |
-| **[Distributed Systems](#distributed-systems)**   | These days, _most_ systems are distributed systems.                                                                                       | _Distributed Systems, 3rd Edition_ by Maarten van Steen | 🤷‍                                 |
+| **[Distributed Systems](#distributed-systems)**   | These days, _most_ systems are distributed systems.                                                                                       | _Distributed Systems, 3rd Edition_ by Maarten van Steen | MIT 6.824                         |
 
 ## Why learn computer science?
 
@@ -176,7 +176,7 @@ As computers have increased in number, they have also _spread_. Whereas business
 
 Our suggested textbook for self-study is Maarten van Steen and Andrew Tanenbaum’s _[Distributed Systems, 3rd Edition](https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/)_. It’s a great improvement over the previous edition, and is available for free online thanks to the generosity of its authors. Given that the distributed systems is a rapidly changing field, no textbook will serve as a trail guide, but Maarten van Steen’s is the best overview we’ve seen of well-established foundations.
 
-A good course for which some videos are online is [MIT’s 6.824](https://www.youtube.com/watch?v=hBWfjkGKRas&list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL) (a graduate course), but unfortunately the audio quality in the recordings is poor, and it’s not clear if the recordings were authorized.
+A good course for which some videos are online is [MIT’s 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) (a graduate course), but unfortunately the audio quality in the recordings is poor, and it’s not clear if the recordings were authorized. *[Update @ Mar 2020: [the official lecture videos of the course](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) has been published!]*
 
 No matter the choice of textbook or other secondary resources, study of distributed systems absolutely mandates reading papers. A good list is [here](http://dsrg.pdos.csail.mit.edu/papers/), and we would highly encourage attending your local [Papers We Love](http://paperswelove.org/) chapter.
 

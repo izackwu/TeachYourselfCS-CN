@@ -27,7 +27,7 @@
 | **[计算机网络](#计算机网络)**             | 互联网已然势不可挡：理解工作原理才能解锁全部潜力。                                     | _[《计算机网络：自顶向下方法》](https://book.douban.com/subject/30280001/)_                                                                   | Stanford CS 144                   |
 | **[数据库](#数据库)**                     | 对于多数重要程序，数据是其核心，然而很少人理解数据库系统的工作原理。                   | _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/) （暂无中译本）_                                                 | Joe Hellerstein’s Berkeley CS 186 |
 | **[编程语言与编译器](#编程语言与编译器)** | 若你懂得编程语言和编译器如何工作，你就能写出更好的代码，更轻松地学习新的编程语言。     | _[《编译原理》](https://book.douban.com/subject/3296317/)_                                                                                    | Alex Aiken’s course on Lagunita   |
-| **[分布式系统](#分布式系统)**             | 如今，_多数_ 系统都是分布式的。                                                        | _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_ | 🤷‍                                 |
+| **[分布式系统](#分布式系统)**             | 如今，_多数_ 系统都是分布式的。                                                        | _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_ | MIT 6.824                          |
 
 ## 为什么要学习计算机科学？
 
@@ -198,7 +198,7 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 对于自学者，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。相较之前的版本，第三版有巨大的改进，并且多亏了其作者的慷慨，这本书在网上可以免费获得。考虑到分布式系统是一个迅速变化的领域，没有教材可以完全作为路标指引，不过就我们所见，这本书是基础扎实的最佳总览。
 
-[MIT的6.824](https://www.youtube.com/watch?v=hBWfjkGKRas&list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL)（研究生课程）是一门在网络有部分视频的优秀课程，不过不幸的是，录像中的声音质量很差，并且不确定这些录像是否经过许可。
+[MIT的6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)（研究生课程）是一门在网络有部分视频的优秀课程，不过不幸的是，录像中的声音质量很差，并且不确定这些录像是否经过许可。*【2020 年 3 月更新：在 2020 年春季学期，该课程已将[授课视频](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)在 Youtube 上公开。】*
 
 不管选择怎样的教材或者其他辅助资料，学习分布式系统必然要求阅读论文。[这里](http://dsrg.pdos.csail.mit.edu/papers/)有一个不错的论文清单，而且我们强烈建议你出席你当地的[Papers We Love](http://paperswelove.org/)（仅限美国）。
 
