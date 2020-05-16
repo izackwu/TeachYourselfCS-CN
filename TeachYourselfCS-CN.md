@@ -211,13 +211,15 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 随着计算机在数量上的增加，计算机同样开始 _分散_。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。
 
-对于自学者，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。相较之前的版本，第三版有巨大的改进，并且多亏了其作者的慷慨，这本书在网上可以免费获得。考虑到分布式系统是一个迅速变化的领域，没有教材可以完全作为路标指引，不过就我们所见，这本书是基础扎实的最佳总览。
+我们推荐的自学参考书是 Martin Kleppmann 的 _[《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/)_。与传统的教科书相比，它是一本为实践者设计的具有很高的可读性的书，并且保持了深度和严谨性。
 
-[MIT的6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)（研究生课程）是一门在网络有部分视频的优秀课程，不过不幸的是，录像中的声音质量很差，并且不确定这些录像是否经过许可。*【2020 年 3 月更新：在 2020 年春季学期，该课程已将[授课视频](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)在 Youtube 上公开。】*
+对于那些偏爱传统教材，或者希望可以从网上免费获取的人，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。
+
+对于喜欢视频课程的人，[MIT的6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) 是一门很好的在线视频课程，由 Robert Morris 教授的研究生课程，在[这里](https://pdos.csail.mit.edu/6.824/schedule.html)可以看到课程安排。
 
 不管选择怎样的教材或者其他辅助资料，学习分布式系统必然要求阅读论文。[这里](http://dsrg.pdos.csail.mit.edu/papers/)有一个不错的论文清单，而且我们强烈建议你出席你当地的[Papers We Love](http://paperswelove.org/)（仅限美国）。
 
-[![分布式系统原理与范型](https://user-images.githubusercontent.com/20233656/66760565-f73da300-eed4-11e9-90e9-85c0498de233.jpg)](https://book.douban.com/subject/3108801/) 
+[![数据密集型应用系统设计](https://user-images.githubusercontent.com/20510068/82111034-94ff9600-9774-11ea-9d49-90b00f746659.png)](https://book.douban.com/subject/30329536/) 
 
 ## 常见问题解答
 
