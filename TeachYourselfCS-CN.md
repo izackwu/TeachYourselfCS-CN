@@ -101,7 +101,7 @@
 
 当你掌握了Nand2Tetris的内容后，我们推荐要么回到《深入理解计算机系统》，或者考虑Patterson和Hennessy二人所著的 _[《计算机组成与设计》](https://book.douban.com/subject/26604008/)_，一本优秀的经典著作。这本书中的不同章节重要程度不一，因此我们建议根据Berkeley的[CS61C课程](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “计算机架构中的伟大思想”来着重阅读一些章节。这门课的笔记和实验在网络上可以免费获得，并且在[互联网档案](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)中有这门课程的过往资料。
 
-[![深入理解计算机系统](https://user-images.githubusercontent.com/20510068/82109783-629d6b00-976b-11ea-8aaa-5127bc536b26.jpg)](https://book.douban.com/subject/26912767/) [![计算机系统要素](https://user-images.githubusercontent.com/20233656/66758695-60231c00-eed1-11e9-8422-a4acfb10a390.jpg)](http://www.nand2tetris.org) 
+[![深入理解计算机系统](https://user-images.githubusercontent.com/20510068/82109944-12270d00-976d-11ea-85a9-774e4f762ec9.png)](https://book.douban.com/subject/26912767/) [![计算机系统要素](https://user-images.githubusercontent.com/20233656/66758695-60231c00-eed1-11e9-8422-a4acfb10a390.jpg)](http://www.nand2tetris.org) 
 
 > 硬件是平台。
 >
