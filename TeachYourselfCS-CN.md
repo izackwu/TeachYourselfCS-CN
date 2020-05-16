@@ -195,15 +195,13 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 多数程序员学习编程语言的知识，而多数计算机科学家学习编程语言 _相关_ 的知识。这使得计算机科学家比起程序员拥有显著的优势，即便在编程领域！因为他们的知识可以推而广之：相较只学习过特定编程语言的人，他们可以更深入更快速地理解新的编程语言。
 
-权威的导论书籍是 _[《编译原理》](https://book.douban.com/subject/3296317/)_，通常称为“龙书”。不幸的是，这本书不是为自学者而设计的，而是供教师从中挑选一些主题用于1-2学期的教学。因此十分重要的是，你需要从中甄选主题，而且最好是在导师的帮助下。
+我们推荐的入门书是 Bob Nystrom 所著的优秀的 _[Crafting Interpreters](https://craftinginterpreters.com/contents.html)_，可在网上免费获取。这本书条理清晰，富有趣味性，非常适合那些想要更好地理解语言和语言工具的人。我们建议你花时间读完整本书，并尝试任何一个感兴趣的“挑战”。
 
-如果你选择使用龙书进行自学，我们建议依据某个视频课程来设定学习的结构，然后按需从龙书中获取深入的内容。我们推荐的在线课程是[Alex Aiken在Stanford的MOOC平台Lagunita所开设的](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)。
+另一本更为传统的推荐书籍是 _[《编译原理》](https://book.douban.com/subject/3296317/)_，通常称为“龙书”。不幸的是，这本书不是为自学者而设计的，而是供教师从中挑选一些主题用于1-2学期的教学。
 
-我们所推荐的龙书替代品是Terence Parr所著的 _[《编程语言实现模式》](https://book.douban.com/subject/10482195/)_。这本书更加直接地面向那些想要着手于诸如DSL的小型编程语言项目的软件工程师，因此从你的角度来看可能会更加实用。当然，这样做牺牲了一些有价值的理论内容。
+如果你选择使用龙书进行自学，你需要从中甄选主题，而且最好是在导师的帮助下。我们建议依据某个视频课程来设定学习的结构，然后按需从龙书中获取深入的内容。我们推荐的在线课程是[Alex Aiken在MOOC平台 edX 所开设的](https://www.edx.org/course/compilers)。
 
-对于项目练习，我们建议为诸如COOL的简单教学语言或者你所感兴趣的某个语言的一个子集写一个编译器。如果感觉这样的项目让人生畏，可以先从[Make a Lisp](https://github.com/kanaka/mal)开始，在一步步的指引下完成项目。
-
-[![编译原理](https://user-images.githubusercontent.com/20233656/66760486-ca898b80-eed4-11e9-80ba-df298ac8d5da.jpg)](https://book.douban.com/subject/3296317/)[![编程语言实现模式](https://user-images.githubusercontent.com/20233656/66760488-cb222200-eed4-11e9-846e-e4c6fa0d75d2.jpg)](https://book.douban.com/subject/10482195/) 
+[![编译原理](https://user-images.githubusercontent.com/20233656/66760486-ca898b80-eed4-11e9-80ba-df298ac8d5da.jpg)](https://book.douban.com/subject/3296317/) 
 
 > 不要做一个只写样板代码的程序员。相反，给用户和其他程序员创造工具。从纺织工业和钢铁工业中学习历史教训：你想制造机器和工具，还是操作这些机器？
 >
