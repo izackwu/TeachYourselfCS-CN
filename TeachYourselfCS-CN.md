@@ -31,7 +31,7 @@
 
 ## 还是太多？
 
-如果花几年时间自学 9 门课程让人望而却步，我们建议你只专注于两本书：_《深入理解计算机系统》_ 和 _《数据密集型应用系统设计》_。根据我们的经验，投入到这两本书的时间可以获得极高的回报率，特别适合从事网络应用开发的自学工程师。这两本书也可以作为上面表格中其他课程的纲领。
+如果花几年时间自学 9 门科目让人望而却步，我们建议你只专注于两本书：_《深入理解计算机系统》_ 和 _《数据密集型应用系统设计》_。根据我们的经验，投入到这两本书的时间可以获得极高的回报率，特别适合从事网络应用开发的自学工程师。这两本书也可以作为上面表格中其他科目的纲领。
 
 ## 为什么要学习计算机科学？
 
@@ -70,7 +70,16 @@
 > * Scheme 学习的相关资源参见：<https://github.com/DeathKing/Learning-SICP>  
 > * 更详细的补充说明：[#3](https://github.com/keithnull/TeachYourselfCS-CN/issues/3)  
 
-如果你觉得SICP过于难，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。
+自从 2016 年首次发布这份指南以来，最常被问到的一个问题是，我们是否推荐由 John DeNero 讲授的更新的 CS 61A 课程，以及配套的书籍 _[《Composing Programs》](https://composingprograms.com/)_，这本书“继承自 SICP” 但使用 Python 讲解。我们认为 DeNero 的课程也很不错，有的学生可能更喜欢，但我们还是建议把 SICP, Scheme 和 Brian Harvey 的视频课程作为首选。
+
+为什么这么说呢？因为 SICP 是独一无二的，它可以——至少很有可能——改变你对计算机和编程的基本认识。不是每个人都有这样的体验。有的人讨厌这本书，有的人看了前几页就放弃了。但潜在的回报让它值得一读。
+
+如果你觉得SICP过于难，试试 _《Composing Programs》_。如果还是不合适，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。如果读这些书让你觉得没有收获，也行你应该先学习其他科目，一两年后再重新审视编程的理念。
+
+> 新版原文删除了对 _《Concepts, Techniques, and Models of Computer Programming》_ 一书的推荐，但这本书对各种编程模型有深入的见解，值得一读。所以译文中依然保留。
+> — 译者注
+
+最后，有一点要说明的是：本指南**不适用**于完全不懂编程的新手。我们假定你是一个没有计算机专业背景的程序员，希望填补一些知识空白。事实上，我们把“编程”章节包括进来只是提醒你还有更多知识需要学习。对于那些从来没有学过编程，但又想学的人来说，这份[指南](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started)更合适。
 
 [![计算机程序的构造和解释](https://user-images.githubusercontent.com/20233656/66758473-ef7bff80-eed0-11e9-944a-15ae5c8542ca.jpg)](https://book.douban.com/subject/1148282/) 
 
