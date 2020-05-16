@@ -147,11 +147,11 @@
 
 ### 操作系统
 
-_[《操作系统概念》](https://book.douban.com/subject/30297919/)_ （“恐龙书”）和 _[《现代操作系统》](https://book.douban.com/subject/27096665/)_ 是操作系统领域的经典书籍。二者都因为写作风格，长达1000页的篇幅以及每隔几年就增加内容来鼓励人们购买“最新版本”招致了一些批评。
+_[《操作系统概念》](https://book.douban.com/subject/30297919/)_ （“恐龙书”）和 _[《现代操作系统》](https://book.douban.com/subject/27096665/)_ 是操作系统领域的经典书籍。二者都因为写作风格和对学生不友好而招致了一些批评。
 
 _[《操作系统导论》（Operating Systems: Three Easy Pieces）](https://book.douban.com/subject/33463930/)_ 是一个不错的替代品，并且[可在网上免费获得（英文版）](http://pages.cs.wisc.edu/~remzi/OSTEP/)。我们格外喜欢这本书的结构，并且认为这本书的习题很值得一做。
 
-在读完《操作系统导论》后，我们鼓励你探索特定操作系统的设计。可以借助“{OS name} Internals”风格的书籍，比如 _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_， _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_，以及 _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_。
+在读完《操作系统导论》后，我们鼓励你探索特定操作系统的设计。可以借助“{OS name} Internals”风格的书籍，比如 _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_， _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_，以及 _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_。对于 Linux ，我们推荐 Robert Love 的 _[《Linux内核设计与实现》](https://book.douban.com/subject/6097773/)_。
 
 为了巩固对操作系统的理解，阅读小型系统内核的代码并且为其增加特性是一个很不错的方法。比如，[xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html)，由MIT的一门课程所维护的从Unix V6到ANSI C和x86的移植，就是一个很棒的选择。《操作系统导论》有一个附录，记载了一些可能的[xv6实验项目](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf)，其中充满了关于潜在项目的很棒想法。
 
