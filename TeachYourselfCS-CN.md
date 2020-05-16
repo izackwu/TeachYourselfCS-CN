@@ -20,14 +20,18 @@
 | 科目                                      | 为何要学？                                                                             | 最佳书籍                                                                                                                                      | 最佳视频                          |
 |-------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | **[编程](#编程)**                         | 不要做一个“永远没彻底搞懂”诸如递归等概念的程序员。                                     | _[《计算机程序的构造和解释》](https://book.douban.com/subject/1148282/)_                                                                      | Brian Harvey’s Berkeley CS 61A    |
-| **[计算机架构](#计算机架构)**             | 如果你对于计算机如何工作没有具体的概念，那么你所做出的所有高级抽象都是空中楼阁。       | _[《计算机组成与设计》](https://book.douban.com/subject/26604008/)_                                                                           | Berkeley CS 61C                   |
+| **[计算机架构](#计算机架构)**             | 如果你对于计算机如何工作没有具体的概念，那么你所做出的所有高级抽象都是空中楼阁。       | _[《深入理解计算机系统》](https://book.douban.com/subject/26912767/)_                                                                           | Berkeley CS 61C                   |
 | **[算法与数据结构](#算法和数据结构)**     | 如果你不懂得如何使用栈、队列、树、图等常见数据结构，遇到有难度的问题时，你将束手无策。 | _[《算法设计手册》](https://book.douban.com/subject/4048566/)_                                                                                | Steven Skiena’s lectures          |
-| **[数学知识](#数学知识)**                 | 计算机科学基本上是应用数学的一个“失控的”分支，因此学习数学将会给你带来竞争优势。       | _[《计算机科学中的数学》](https://book.douban.com/subject/33396340/)_                                                                         | Tom Leighton’s MIT 6.042J         |
+| **[数学知识](#数学知识)**                 | 计算机科学基本上是应用数学的一个“跑偏的”分支，因此学习数学将会给你带来竞争优势。       | _[《计算机科学中的数学》](https://book.douban.com/subject/33396340/)_                                                                         | Tom Leighton’s MIT 6.042J         |
 | **[操作系统](#操作系统)**                 | 你所写的代码，基本上都由操作系统来运行，因此你应当了解其运作的原理。                   | _[《操作系统导论》](https://book.douban.com/subject/33463930/)_                                                                               | Berkeley CS 162                   |
 | **[计算机网络](#计算机网络)**             | 互联网已然势不可挡：理解工作原理才能解锁全部潜力。                                     | _[《计算机网络：自顶向下方法》](https://book.douban.com/subject/30280001/)_                                                                   | Stanford CS 144                   |
 | **[数据库](#数据库)**                     | 对于多数重要程序，数据是其核心，然而很少人理解数据库系统的工作原理。                   | _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/) （暂无中译本）_                                                 | Joe Hellerstein’s Berkeley CS 186 |
-| **[编程语言与编译器](#编程语言与编译器)** | 若你懂得编程语言和编译器如何工作，你就能写出更好的代码，更轻松地学习新的编程语言。     | _[《编译原理》](https://book.douban.com/subject/3296317/)_                                                                                    | Alex Aiken’s course on Lagunita   |
-| **[分布式系统](#分布式系统)**             | 如今，_多数_ 系统都是分布式的。                                                        | _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_ | MIT 6.824                          |
+| **[编程语言与编译器](#编程语言与编译器)** | 若你懂得编程语言和编译器如何工作，你就能写出更好的代码，更轻松地学习新的编程语言。     | _[《Crafting Interpreters》](https://craftinginterpreters.com/)_                                                                                    | Alex Aiken’s course on Lagunita   |
+| **[分布式系统](#分布式系统)**             | 如今，_多数_ 系统都是分布式的。                                                        | _[《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/)_                                                              | MIT 6.824                          |
+
+## 还是太多？
+
+如果花几年时间自学 9 门科目让人望而却步，我们建议你只专注于两本书：_《深入理解计算机系统》_ 和 _《数据密集型应用系统设计》_。根据我们的经验，投入到这两本书的时间可以获得极高的回报率，特别适合从事网络应用开发的自学工程师。这两本书也可以作为上面表格中其他科目的纲领。
 
 ## 为什么要学习计算机科学？
 
@@ -66,7 +70,16 @@
 > * Scheme 学习的相关资源参见：<https://github.com/DeathKing/Learning-SICP>  
 > * 更详细的补充说明：[#3](https://github.com/keithnull/TeachYourselfCS-CN/issues/3)  
 
-如果你觉得SICP过于难，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。
+自从 2016 年首次发布这份指南以来，最常被问到的一个问题是，我们是否推荐由 John DeNero 讲授的更新的 CS 61A 课程，以及配套的书籍 _[《Composing Programs》](https://composingprograms.com/)_，这本书“继承自 SICP” 但使用 Python 讲解。我们认为 DeNero 的课程也很不错，有的学生可能更喜欢，但我们还是建议把 SICP, Scheme 和 Brian Harvey 的视频课程作为首选。
+
+为什么这么说呢？因为 SICP 是独一无二的，它可以——至少很有可能——改变你对计算机和编程的基本认识。不是每个人都有这样的体验。有的人讨厌这本书，有的人看了前几页就放弃了。但潜在的回报让它值得一读。
+
+如果你觉得SICP过于难，试试 _《Composing Programs》_。如果还是不合适，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。如果读这些书让你觉得没有收获，也行你应该先学习其他科目，一两年后再重新审视编程的理念。
+
+> 新版原文删除了对 _《Concepts, Techniques, and Models of Computer Programming》_ 一书的推荐，但这本书对各种编程模型有深入的见解，值得一读。所以译文中依然保留。
+> — 译者注
+
+最后，有一点要说明的是：本指南**不适用**于完全不懂编程的新手。我们假定你是一个没有计算机专业背景的程序员，希望填补一些知识空白。事实上，我们把“编程”章节包括进来只是提醒你还有更多知识需要学习。对于那些从来没有学过编程，但又想学的人来说，这份[指南](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started)更合适。
 
 [![计算机程序的构造和解释](https://user-images.githubusercontent.com/20233656/66758473-ef7bff80-eed0-11e9-944a-15ae5c8542ca.jpg)](https://book.douban.com/subject/1148282/) 
 
@@ -74,7 +87,11 @@
 
 计算机架构——有时候又被称为“计算机系统”或者“计算机组成”——是了解软件底层的的重要视角。根据我们的经验，这是自学的软件工程师最容易忽视的领域。
 
-_[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又名“从与非门到俄罗斯方块”（“Nand2Tetris”），这本书规模宏大，让读者对计算机内的所有部分如何协同工作有完全的认识。这本书的每一章节对应如何构建计算机整体系统中的一小部分，从用HDL（硬件描述语言）写基本的逻辑门电路出发，途经CPU和汇编，最终抵达诸如俄罗斯方块这般规模的应用程序。
+我们最喜欢的入门书是 _[《深入理解计算机系统》](https://book.douban.com/subject/26912767/)_。典型的[计算机体系结构导论课程](http://csapp.cs.cmu.edu/3e/courses.html)会涵盖本书的 1 - 6 章。
+
+我们喜爱《深入理解计算机系统》，因为它的实用性，并且站在程序员的视角。虽然计算机体系结构的内容比本书所涉及的内容多得多，但对于那些想了解计算机系统以求编写更快、更高效、更可靠的软件的人来说，这本书是很好的起点。
+
+对于那些既想了解这个主题又想兼顾硬件和软件的知识的人来说，我们推荐 _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又名“从与非门到俄罗斯方块”（“Nand2Tetris”），这本书规模宏大，让读者对计算机内的所有部分如何协同工作有完全的认识。这本书的每一章节对应如何构建计算机整体系统中的一小部分，从用HDL（硬件描述语言）写基本的逻辑门电路出发，途经CPU和汇编，最终抵达诸如俄罗斯方块这般规模的应用程序。
 
 我们推荐把此书的前六章读完，并完成对应的项目练习。这么做，你将更加深入地理解，计算机架构和运行其上的软件之间的关系。
 
@@ -82,9 +99,9 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 为了追求简洁和紧凑，这本书牺牲了内容上的深度。尤其值得注意的是，流水线和存储层次结构是现代计算机架构中极其重要的两个概念，然而这本书对此几乎毫无涉及。
 
-当你掌握了Nand2Tetris的内容后，我们接下来推荐Patterson和Hennessy二人所著的 _[《计算机组成与设计》](https://book.douban.com/subject/26604008/)_，一本优秀的经典著作。这本书中的不同章节重要程度不一，因此我们建议根据Berkeley的[CS61C课程](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “计算机架构中的伟大思想”来着重阅读一些章节。这门课的笔记和实验在网络上可以免费获得，并且在[互联网档案](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)中有这门课程的过往资料。
+当你掌握了Nand2Tetris的内容后，我们推荐要么回到《深入理解计算机系统》，或者考虑Patterson和Hennessy二人所著的 _[《计算机组成与设计》](https://book.douban.com/subject/26604008/)_，一本优秀的经典著作。这本书中的不同章节重要程度不一，因此我们建议根据Berkeley的[CS61C课程](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “计算机架构中的伟大思想”来着重阅读一些章节。这门课的笔记和实验在网络上可以免费获得，并且在[互联网档案](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)中有这门课程的过往资料。
 
-[![计算机系统要素](https://user-images.githubusercontent.com/20233656/66758695-60231c00-eed1-11e9-8422-a4acfb10a390.jpg)](http://www.nand2tetris.org) [![计算机组成与设计](https://user-images.githubusercontent.com/20233656/66758887-bf812c00-eed1-11e9-87cf-9255a4815d04.jpg)](https://book.douban.com/subject/26604008/) 
+[![深入理解计算机系统](https://user-images.githubusercontent.com/20510068/82109944-12270d00-976d-11ea-85a9-774e4f762ec9.png)](https://book.douban.com/subject/26912767/) [![计算机系统要素](https://user-images.githubusercontent.com/20233656/66758695-60231c00-eed1-11e9-8422-a4acfb10a390.jpg)](http://www.nand2tetris.org) 
 
 > 硬件是平台。
 >
@@ -130,11 +147,11 @@ _[《计算机系统要素》](https://book.douban.com/subject/1998341/)_，又�
 
 ### 操作系统
 
-_[《操作系统概念》](https://book.douban.com/subject/30297919/)_ （“恐龙书”）和 _[《现代操作系统》](https://book.douban.com/subject/27096665/)_ 是操作系统领域的经典书籍。二者都因为写作风格，长达1000页的篇幅以及每隔几年就增加内容来鼓励人们购买“最新版本”招致了一些批评。
+_[《操作系统概念》](https://book.douban.com/subject/30297919/)_ （“恐龙书”）和 _[《现代操作系统》](https://book.douban.com/subject/27096665/)_ 是操作系统领域的经典书籍。二者都因为写作风格和对学生不友好而招致了一些批评。
 
 _[《操作系统导论》（Operating Systems: Three Easy Pieces）](https://book.douban.com/subject/33463930/)_ 是一个不错的替代品，并且[可在网上免费获得（英文版）](http://pages.cs.wisc.edu/~remzi/OSTEP/)。我们格外喜欢这本书的结构，并且认为这本书的习题很值得一做。
 
-在读完《操作系统导论》后，我们鼓励你探索特定操作系统的设计。可以借助“{OS name} Internals”风格的书籍，比如 _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_， _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_，以及 _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_。
+在读完《操作系统导论》后，我们鼓励你探索特定操作系统的设计。可以借助“{OS name} Internals”风格的书籍，比如 _[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)_， _[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)_，以及 _[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)_。对于 Linux ，我们推荐 Robert Love 的 _[《Linux内核设计与实现》](https://book.douban.com/subject/6097773/)_。
 
 为了巩固对操作系统的理解，阅读小型系统内核的代码并且为其增加特性是一个很不错的方法。比如，[xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html)，由MIT的一门课程所维护的从Unix V6到ANSI C和x86的移植，就是一个很棒的选择。《操作系统导论》有一个附录，记载了一些可能的[xv6实验项目](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf)，其中充满了关于潜在项目的很棒想法。
 
@@ -178,15 +195,13 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 多数程序员学习编程语言的知识，而多数计算机科学家学习编程语言 _相关_ 的知识。这使得计算机科学家比起程序员拥有显著的优势，即便在编程领域！因为他们的知识可以推而广之：相较只学习过特定编程语言的人，他们可以更深入更快速地理解新的编程语言。
 
-权威的导论书籍是 _[《编译原理》](https://book.douban.com/subject/3296317/)_，通常称为“龙书”。不幸的是，这本书不是为自学者而设计的，而是供教师从中挑选一些主题用于1-2学期的教学。因此十分重要的是，你需要从中甄选主题，而且最好是在导师的帮助下。
+我们推荐的入门书是 Bob Nystrom 所著的优秀的 _[Crafting Interpreters](https://craftinginterpreters.com/contents.html)_，可在网上免费获取。这本书条理清晰，富有趣味性，非常适合那些想要更好地理解语言和语言工具的人。我们建议你花时间读完整本书，并尝试任何一个感兴趣的“挑战”。
 
-如果你选择使用龙书进行自学，我们建议依据某个视频课程来设定学习的结构，然后按需从龙书中获取深入的内容。我们推荐的在线课程是[Alex Aiken在Stanford的MOOC平台Lagunita所开设的](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)。
+另一本更为传统的推荐书籍是 _[《编译原理》](https://book.douban.com/subject/3296317/)_，通常称为“龙书”。不幸的是，这本书不是为自学者而设计的，而是供教师从中挑选一些主题用于1-2学期的教学。
 
-我们所推荐的龙书替代品是Terence Parr所著的 _[《编程语言实现模式》](https://book.douban.com/subject/10482195/)_。这本书更加直接地面向那些想要着手于诸如DSL的小型编程语言项目的软件工程师，因此从你的角度来看可能会更加实用。当然，这样做牺牲了一些有价值的理论内容。
+如果你选择使用龙书进行自学，你需要从中甄选主题，而且最好是在导师的帮助下。我们建议依据某个视频课程来设定学习的结构，然后按需从龙书中获取深入的内容。我们推荐的在线课程是[Alex Aiken在MOOC平台 edX 所开设的](https://www.edx.org/course/compilers)。
 
-对于项目练习，我们建议为诸如COOL的简单教学语言或者你所感兴趣的某个语言的一个子集写一个编译器。如果感觉这样的项目让人生畏，可以先从[Make a Lisp](https://github.com/kanaka/mal)开始，在一步步的指引下完成项目。
-
-[![编译原理](https://user-images.githubusercontent.com/20233656/66760486-ca898b80-eed4-11e9-80ba-df298ac8d5da.jpg)](https://book.douban.com/subject/3296317/)[![编程语言实现模式](https://user-images.githubusercontent.com/20233656/66760488-cb222200-eed4-11e9-846e-e4c6fa0d75d2.jpg)](https://book.douban.com/subject/10482195/) 
+[![编译原理](https://user-images.githubusercontent.com/20233656/66760486-ca898b80-eed4-11e9-80ba-df298ac8d5da.jpg)](https://book.douban.com/subject/3296317/) 
 
 > 不要做一个只写样板代码的程序员。相反，给用户和其他程序员创造工具。从纺织工业和钢铁工业中学习历史教训：你想制造机器和工具，还是操作这些机器？
 >
@@ -196,15 +211,21 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 随着计算机在数量上的增加，计算机同样开始 _分散_。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。
 
-对于自学者，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。相较之前的版本，第三版有巨大的改进，并且多亏了其作者的慷慨，这本书在网上可以免费获得。考虑到分布式系统是一个迅速变化的领域，没有教材可以完全作为路标指引，不过就我们所见，这本书是基础扎实的最佳总览。
+我们推荐的自学参考书是 Martin Kleppmann 的 _[《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/)_。与传统的教科书相比，它是一本为实践者设计的具有很高的可读性的书，并且保持了深度和严谨性。
 
-[MIT的6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)（研究生课程）是一门在网络有部分视频的优秀课程，不过不幸的是，录像中的声音质量很差，并且不确定这些录像是否经过许可。*【2020 年 3 月更新：在 2020 年春季学期，该课程已将[授课视频](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)在 Youtube 上公开。】*
+对于那些偏爱传统教材，或者希望可以从网上免费获取的人，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。
+
+对于喜欢视频课程的人，[MIT的6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) 是一门很好的在线视频课程，由 Robert Morris 教授的研究生课程，在[这里](https://pdos.csail.mit.edu/6.824/schedule.html)可以看到课程安排。
 
 不管选择怎样的教材或者其他辅助资料，学习分布式系统必然要求阅读论文。[这里](http://dsrg.pdos.csail.mit.edu/papers/)有一个不错的论文清单，而且我们强烈建议你出席你当地的[Papers We Love](http://paperswelove.org/)（仅限美国）。
 
-[![分布式系统原理与范型](https://user-images.githubusercontent.com/20233656/66760565-f73da300-eed4-11e9-90e9-85c0498de233.jpg)](https://book.douban.com/subject/3108801/) 
+[![数据密集型应用系统设计](https://user-images.githubusercontent.com/20510068/82111034-94ff9600-9774-11ea-9d49-90b00f746659.png)](https://book.douban.com/subject/30329536/) 
 
 ## 常见问题解答
+
+### 这份指引的目标受众是？
+
+我们面向自学的软件工程师、培训班学生、“早熟的”高中生或者想要通过自学补充正式教育的大学生。关于何时开启这段自学旅程，完全取决于个人，不过多数人在有一定的职业经历后深入学习计算机科学理论会获益匪浅。比如，我们注意到，如果学生在工作中曾经使用过数据库，他们会 _喜爱_ 学习数据库系统课程；如果学生从事过一两个Web项目，他们会 _喜爱_ 学习计算机网络。
 
 ### 人工智能/计算机图形学/XX主题怎么样？
 
@@ -220,23 +241,23 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 
 因此，我们所推荐的次序主要是为了帮助你 _起步_……如果你出于某种强烈的原因而倾向以不同的顺序学习，那也没有关系，勇敢开始吧！不过在我们看来，最重要的“先决条件”是：先学计算机架构再学操作系统或数据库，先学计算机网络和操作系统再学分布式系统。
 
-### 这份指引的目标受众是？
-
-我们面向自学的软件工程师、培训班学生、“早熟的”高中生或者想要通过自学补充正式教育的大学生。关于何时开启这段自学旅程，完全取决于个人，不过多数人在有一定的职业经历后深入学习计算机科学理论会获益匪浅。比如，我们注意到，如果学生在工作中曾经使用过数据库，他们会 _喜爱_ 学习数据库系统课程；如果学生从事过一两个Web项目，他们会 _喜爱_ 学习计算机网络。
-
 ### 和Open Source Society、freeCodeCamp curricula等比起来，这份指引?
 
 [OSS指引](https://github.com/open-source-society/computer-science)涵盖太多主题，在许多主题中推荐劣质资源，没有就特定课程哪些方面有价值提供原因或指引。我们努力对这份指引中的课程加以限制，仅仅包括那些你作为软件工程师 _确实需要了解的_，不论你的专业方向，并且对每门课程为何必要做出了解释以帮助你理解。
 
-FreeCodeCamp主要关注编程，而不是计算机科学。至于你为什么要学习计算机科学，参见[上文](#为什么要学习计算机科学)。
+FreeCodeCamp主要关注编程，而不是计算机科学。至于你为什么要学习计算机科学，参见[上文](#为什么要学习计算机科学)。如果你是个新手，我们建议先学 freeCodeCamp 的课程，一两年后再回归本指南。
 
 ### XX编程语言怎么样?
 
-学习一门特定的编程语言和学习计算机科学的一个领域完全不在一个维度——相比之下，学习语言 _容易_ 且 _缺乏价值_。如果你已经了解了一些语言，我们强烈建议遵照我们的指引，然后在学习的空当中习得语言，或者暂且不管以后再说。如果你已经把编程学得不错了（比如学完了 _《计算机程序的构造和解释》_），尤其是如果你学习过编译器，那么面对一门新的语言，你只需要花一个周末稍多的时间即可基本掌握。
+学习一门特定的编程语言和学习计算机科学的一个领域完全不在一个维度——相比之下，学习语言 _容易_ 且 _缺乏价值_。如果你已经了解了一些语言，我们强烈建议遵照我们的指引，然后在学习的空当中习得语言，或者暂且不管以后再说。如果你已经把编程学得不错了（比如学完了 _《计算机程序的构造和解释》_），尤其是如果你学习过编译器，那么面对一门新的语言，你只需要花一个周末稍多的时间即可基本掌握，之后你可以在工作中学习相关的类库/工具/生态。
 
 ### XX流行技术怎么样?
 
 没有任何一种技术的重要程度可以达到学习其使用足以成为计算机科学教学的核心部分。不过，你对学习那门技术充满热情，这很不错。诀窍是先从特定的技术回退到基本的领域或概念，判断这门流行技术在技术的宏观大局中位于何处，然后才深入学习这门技术。
+
+### 为什么你们还在推荐SICP?
+
+先尝试读一下，有些人觉得 SICP 让人神魂颠倒，这在其他书很少见。如果你不喜欢，你可以尝试其他的东西，也许以后再回到 SICP。
 
 ### 为什么你们还在推荐龙书?
 
@@ -250,7 +271,9 @@ FreeCodeCamp主要关注编程，而不是计算机科学。至于你为什么�
 
 ### 这份指引是谁写的?
 
-这份指引由[Bradfield School of Computer Science](https://bradfieldcs.com)（旧金山）的两位教员：[Ozan Onay](https://twitter.com/oznova_)和[Myles Byrne](https://twitter.com/quackingduck)编写。这份指引基于我们对数百名自学成才的工程师和培训班学生教授计算机科学基础的经验。感谢我们所有学生对自学资源的持续反馈。同样感谢Alek Sharma，Omar Rayward，Ammar Mian和Tyler Bettilyon对这份指引的反馈。
+这份指引由[Bradfield School of Computer Science](https://bradfieldcs.com)（旧金山）的两位教员：[Ozan Onay](https://twitter.com/oznova_)和[Myles Byrne](https://twitter.com/quackingduck)编写，并由 Oz 于 2020 年更新。这份指引基于我们对数千名自学成才的工程师和培训班学生教授计算机科学基础的经验。感谢我们所有学生对自学资源的持续反馈。
+
+只要有足够的时间和动力，我们非常有信心，你可以自学完以上所有课程。如果你喜欢一个集中式、结构化、由教师指导的课程，你可能对我们的[计算机科学强化班](https://bradfieldcs.com/csi/)感兴趣。我们[不建议](https://ozwrites.com/masters/)你去攻读硕士学位。
 
 ### 这份指引是谁翻译的？
 
