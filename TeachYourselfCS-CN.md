@@ -74,7 +74,7 @@
 
 为什么这么说呢？因为 SICP 是独一无二的，它可以——至少很有可能——改变你对计算机和编程的基本认识。不是每个人都有这样的体验。有的人讨厌这本书，有的人看了前几页就放弃了。但潜在的回报让它值得一读。
 
-如果你觉得SICP过于难，试试 _《Composing Programs》_。如果还是不合适，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。如果读这些书让你觉得没有收获，也行你应该先学习其他科目，一两年后再重新审视编程的理念。
+如果你觉得SICP过于难，试试 _《Composing Programs》_。如果还是不合适，那我们推荐 _《程序设计方法》（[中文版](https://book.douban.com/subject/1140942/)，[英文版](http://www.htdp.org/)）_ ；如果你觉得SICP过于简单，那我们推荐 _[《Concepts, Techniques, and Models of Computer Programming》](https://book.douban.com/subject/1782316/)_ 。如果读这些书让你觉得没有收获，也许你应该先学习其他科目，一两年后再重新审视编程的理念。
 
 > 新版原文删除了对 _《Concepts, Techniques, and Models of Computer Programming》_ 一书的推荐，但这本书对各种编程模型有深入的见解，值得一读。所以译文中依然保留。
 > — 译者注
