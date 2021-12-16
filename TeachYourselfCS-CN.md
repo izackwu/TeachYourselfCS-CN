@@ -27,7 +27,7 @@
 | [计算机网络](#计算机网络) | 互联网已然势不可挡：理解工作原理才能解锁全部潜力。 | [《计算机网络：自顶向下方法》](https://book.douban.com/subject/30280001/) | Stanford CS 144 |
 | [数据库](#数据库) | 对于多数重要程序，数据是其核心，然而很少人理解数据库系统的工作原理。 | *[Readings in Database Systems](https://book.douban.com/subject/2256069/)* （暂无中译本） | Joe Hellerstein’s Berkeley CS 186 |
 | [编程语言与编译器](#编程语言与编译器) | 若你懂得编程语言和编译器如何工作，你就能写出更好的代码，更轻松地学习新的编程语言。 | *[Crafting Interpreters](https://craftinginterpreters.com/)* | Alex Aiken’s course on Lagunita   |
-| [分布式系统](#分布式系统）) | 如今，**多数**系统都是分布式的。 | [《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/) | MIT 6.824 |
+| [分布式系统](#分布式系统）) | 如今，**多数** 系统都是分布式的。 | [《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/) | MIT 6.824 |
 
 ## 还是太多？
 
