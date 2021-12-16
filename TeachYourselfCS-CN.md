@@ -106,7 +106,7 @@
 > 硬件是平台。
 >
 > — Mike Acton, Engine Director at Insomniac Games
-> ([观看他在 CppCon 上的演说](https://www.youtube.com/watch?v=rX0ItVEVjHc))
+> （[观看他在 CppCon 上的演说](https://www.youtube.com/watch?v=rX0ItVEVjHc)）
 
 ### 算法与数据结构
 
